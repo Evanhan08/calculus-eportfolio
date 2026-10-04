@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Home | My Calculus Learning Journey – Stephen John Cortez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&amp;display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+    <script>
+      try {
+        var saved = localStorage.getItem("theme");
+        if (saved) document.documentElement.setAttribute("data-theme", saved);
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <!-- Top bar -->
+    <div class="top">
+      <a class="logo" href="index.html">SJCortez</a>
+      <nav>
+        <a href="index.html" class="on">Home</a>
+        <a href="artifacts.html">Artifacts</a>
+        <a href="about.html">About</a>
+      </nav>
+      <div class="acts">
+        <button class="ic" id="th" aria-label="Toggle dark mode">
+          <svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Side menu -->
+    <aside class="side" id="side">
+      <div class="sg">Home</div>
+      <a href="index.html#aboutme">About Me</a>
+      <a href="index.html#journey">My Calculus Journey</a>
+      <div class="sg">Artifacts</div>
+      <a href="artifacts.html#artifacts">Learning Artifacts</a>
+      <div class="sg">About</div>
+      <a href="about.html#it">Calculus in IT</a>
+      <a href="about.html#growth">My Growth in Calculus</a>
+      <a href="about.html#final">Final Reflection</a>
+      <a href="about.html#refs">References</a>
+    </aside>
+    <div id="scrim"></div>
+
+    <!-- Page content -->
+    <div class="wrap">
+      <div class="view on" data-v="home">
+        <!-- Hero -->
+        <header class="hero" id="home">
+          <div class="eyebrow">2CALC-IT · E-Portfolio</div>
+          <h1>My Calculus<br>Learning Journey</h1>
+          <p class="hero-name"><b>Stephen John Cortez</b></p>
+          <p class="hero-program">
+            Bachelor of Science in Information Technology – Web Development (BASIT WEBDEV)
+          </p>
+          <div class="chips">
+            <span class="chip o">2nd Year | 1st Semester</span>
+            <span class="chip o">Subject: 2CALC-IT</span>
+            <span class="chip">Instructor: Jonathan Santos Mallari</span>
+          </div>
+        </header>
+        <main>
+          <!-- Section: About Me -->
+          <section id="aboutme">
+            <div class="split">
+              <div class="vis">
+                <svg viewBox="0 0 400 520" fill="none" stroke="currentColor" aria-hidden="true">
+                  <defs>
+                    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse">
+                      <path d="M40 0H0V40" stroke-width=".6" opacity=".18"/>
+                    </pattern>
+                  </defs>
+                  <rect width="400" height="520" fill="url(#g)" stroke="none"/>
+                  <path
+                    d="M30 470C130 470 170 330 230 250S340 70 395 50"
+                    stroke-width="5"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M120 400L330 150"
+                    stroke-width="2.5"
+                    stroke-dasharray="8 7"
+                    opacity=".7"
+                  />
+                  <circle cx="225" cy="260" r="9" fill="currentColor" stroke="none"/>
+                  <text
+                    x="30"
+                    y="40"
+                    font-family="Roboto,Arial,sans-serif"
+                    font-size="21"
+                    fill="currentColor"
+                    stroke="none"
+                  >
+                    f′(x) = lim [f(x+h) − f(x)] / h
+                  </text>
+                  <text
+                    x="30"
+                    y="68"
+                    font-family="Roboto,Arial,sans-serif"
+                    font-size="17"
+                    fill="currentColor"
+                    stroke="none"
+                    opacity=".7"
+                  >
+                    h→0
+                  </text>
+                </svg>
+              </div>
+              <div>
+                <h2>About Me</h2>
+                <p>
+                  My name is Stephen John Cortez, I am a second-year student taking Bachelor of
+                  Science in Information Technology – Web Development. I am interested in designing
+                  digitally, programming, and creating different digital projects.
+                </p>
+                <p>
+                  To be honest, I was expecting 2CALC-IT to be really tough. Calculus has a
+                  reputation for being super overwhelming with all the math and problem-solving, so
+                  I was pretty nervous at first. But as the semester went on, I actually started
+                  enjoying it way more than I thought I would. It didn't feel as stressful as I
+                  expected, and I really liked figuring out how all the different concepts fit
+                  together.
+                </p>
+                <p>
+                  One of the best parts of the course was getting to help out my classmates. I even
+                  made some quick tutorial videos where I broke down the topics in my own words.
+                  Instead of just repeating what the professor said in class, I tried to explain the
+                  lessons in a simpler way that my classmates could follow more easily.
+                </p>
+                <p>
+                  Through this journey, 2CALC-IT taught me that you don't fully get a topic until
+                  you can teach it to someone else. Calculus became not only a subject where I
+                  solved mathematical problems but also an opportunity to share what I learned.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Section: My Calculus Journey -->
+          <section id="journey">
+            <h2>My Calculus Learning Journey</h2>
+            <p>
+              Here's an overview of the topics we studied throughout the course and the activities
+              that show my work for each topic. These artifacts include worksheets and examinations
+              that document my learning and understanding of Calculus.
+            </p>
+            <ol>
+              <li>
+                <b><a href="artifacts.html#a-comp">Composition of Functions</a></b> – Understanding
+                how one function can be combined with another by using function composition.
+              </li>
+              <li>
+                <b><a href="artifacts.html#a-limits">Evaluating Limits</a></b> – Learning how to
+                evaluate limits and determine the value a function approaches as its input
+                approaches a particular value.
+              </li>
+              <li>
+                <b><a href="artifacts.html#a-basic">Basic Differentiation Rules</a></b> – Learning
+                the basic rules used to find the derivatives of mathematical functions.
+              </li>
+              <li>
+                <b><a href="artifacts.html#a-prod">Product Rule, Quotient Rule &amp; Fractional
+                Exponents</a></b> – Applying differentiation rules to functions involving products,
+                quotients, and fractional exponents.
+              </li>
+              <li>
+                <b><a href="artifacts.html#a-chain">Chain Rule</a></b> – Using the chain rule to
+                differentiate composite functions.
+              </li>
+              <li>
+                <b><a href="artifacts.html#a-prelim">Prelim Examination</a></b> – A collection of
+                examination work covering the topics included in the prelim period.
+              </li>
+              <li>
+                <b><a href="artifacts.html#a-mid">Midterm Examination</a></b> – A collection of
+                examination work covering the topics included in the midterm period.
+              </li>
+              <li>
+                <b><a href="artifacts.html#a-infographic">Group 3 Projects</a></b> – Three group
+                projects: a Calculus infographic, a card deck on limits, and a poster on function
+                operations.
+              </li>
+            </ol>
+          </section>
+
+          <!-- Section: Growth preview -->
+          <section id="growth-short">
+            <h2>My Growth in Calculus</h2>
+            <p>
+              Going into 2CALC-IT, I knew Calculus would take some effort, but since I've been
+              pretty comfortable with solving math since SHS, I wasn't super worried. What really
+              surprised me, though, was how much I actually enjoyed the subject as we went along.
+            </p>
+            <a class="btn" href="about.html#growth">View full info →</a>
+          </section>
+        </main>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        Stephen John Cortez · BSIT Web Development · 2CALC-IT · Instructor: Jonathan Santos Mallari
+      </footer>
+    </div>
+
+    <!-- Floating buttons -->
+    <div class="fab">
+      <button class="ic" id="mb" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <a class="ic" href="about.html#growth" aria-label="Tutorial videos">
+        <svg viewBox="0 0 24 24">
+          <rect x="3" y="5" width="18" height="14" rx="3"/>
+          <path d="M10 9.5v5l4.5-2.5z"/>
+        </svg>
+      </a>
+      <a class="ic" href="#" data-top aria-label="Back to top">
+        <svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+      </a>
+    </div>
+
+    <!-- Image viewer -->
+    <div id="lb">
+      <img alt="">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

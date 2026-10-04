@@ -1,2 +1,1 @@
-# calculus-eportfolio
-My 2CALC-IT Calculus E-Portfolio: a website showing my activities, exams, and group projects, with reflections on what I learned this semester.
+This website is my final assessment in 2CALC-IT. It collects my Calculus activities, exams, and Group 3 projects, with my reflections on how I grew in the subject, and it shows how Calculus connects to IT and Web Development. It's built with HTML, CSS, and JavaScript and hosted on GitHub Pages
